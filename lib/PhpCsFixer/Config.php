@@ -56,6 +56,7 @@ final class Config extends BaseConfig
                     'phpdoc_align' => false,
                     'phpdoc_order' => ['order' => ['param', 'throws', 'return']],
                     'phpdoc_types_order' => ['null_adjustment' => 'always_last', 'sort_algorithm' => 'none'],
+                    'return_assignment' => ['skip_named_var_tags' => true],
                     'single_line_comment_style' => false,
                     'trailing_comma_in_multiline' => ['elements' => ['arrays', 'arguments', 'match', 'parameters']],
                     'yoda_style' => ['equal' => false, 'identical' => false, 'less_and_greater' => false],
